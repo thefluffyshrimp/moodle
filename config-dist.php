@@ -96,6 +96,9 @@ $CFG->dboptions = array(
 $CFG->wwwroot   = 'http://example.com/moodle';
 
 
+
+
+
 //=========================================================================
 // 3. DATA FILES LOCATION
 //=========================================================================
@@ -924,6 +927,7 @@ $CFG->admin = 'admin';
 //=========================================================================
 
 require_once(__DIR__ . '/lib/setup.php'); // Do not edit
+
 
 // There is no php closing tag in this file,
 // it is intentional because it prevents trailing whitespace problems!
